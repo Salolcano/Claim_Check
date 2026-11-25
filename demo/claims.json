@@ -1,0 +1,31 @@
+{
+  "title": "Q3 market report",
+  "subject": "Acme Research, Q3 2026 market report",
+  "author": "0xAUTHOR_ADDRESS (optional, defaults to the requester)",
+  "definition": {
+    "requirements": [
+      {
+        "text": "The report says the market grew 12% year on year",
+        "rule": "Look for a growth figure for the full year and its comparison period",
+        "mandatory": true
+      },
+      {
+        "text": "The report names its data source",
+        "rule": "Look for a named dataset, survey or provider",
+        "mandatory": true
+      },
+      {
+        "text": "The report states its sample size",
+        "rule": "",
+        "mandatory": false
+      }
+    ],
+    "evidence_policy": {
+      "min_sources": 1,
+      "min_publishers": 1
+    },
+    "payout": {
+      "partial_bps": 4000
+    }
+  }
+}
